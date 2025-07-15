@@ -1,10 +1,8 @@
-
 const images = [
-  { src: '/images/gato.jpg', title: 'Prototipo 3D' },
-  { src: '/images/grabado.jpg', title: 'Grabado en Madera' },
-  { src: '/images/corte.jpg', title: 'Corte en Acrílico' },
+  { src: '/Terceraweb/images/gato.jpg', title: 'Prototipo 3D' },
+  { src: '/Terceraweb/images/grabado.jpg', title: 'Grabado en Madera' },
+  { src: '/Terceraweb/images/corte.jpg', title: 'Corte en Acrílico' },
 ];
-
 
 function Gallery() {
   return (
@@ -21,4 +19,5 @@ function Gallery() {
     </section>
   );
 }
+
 export default Gallery;
